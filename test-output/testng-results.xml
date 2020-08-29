@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-29T00:11:45Z" name="All Test Suite" finished-at="2020-08-29T00:12:07Z" duration-ms="21289">
+    <groups>
+    </groups>
+    <test started-at="2020-08-29T00:11:45Z" name="D:/IdeaProjects/TestAutomationProject" finished-at="2020-08-29T00:12:07Z" duration-ms="21289">
+      <class name="com.selenium.basic.InvokeBrowserDynamically">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.selenium.basic.InvokeBrowserDynamically@1800a575]" started-at="2020-08-29T00:11:45Z" name="openBrowser" finished-at="2020-08-29T00:11:51Z" duration-ms="5294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.selenium.basic.InvokeBrowserDynamically@1800a575]" started-at="2020-08-29T00:11:51Z" name="verifyHomePage" finished-at="2020-08-29T00:11:53Z" duration-ms="2885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.selenium.basic.InvokeBrowserDynamically@1800a575]" started-at="2020-08-29T00:11:53Z" name="quitBrowser" finished-at="2020-08-29T00:11:54Z" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.selenium.basic.InvokeBrowserDynamically -->
+      <class name="com.selenium.basic.InvokeOtherBrowsers">
+        <test-method signature="verifyHomePage()[pri:0, instance:com.selenium.basic.InvokeOtherBrowsers@1458ed9c]" started-at="2020-08-29T00:11:54Z" name="verifyHomePage" finished-at="2020-08-29T00:12:00Z" duration-ms="6314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+      </class> <!-- com.selenium.basic.InvokeOtherBrowsers -->
+      <class name="com.scratch.HomePage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.scratch.HomePage@1c93f6e1]" started-at="2020-08-29T00:11:39Z" name="beforeSuite" finished-at="2020-08-29T00:11:45Z" duration-ms="6669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="testCurrentUrl()[pri:0, instance:com.scratch.HomePage@1c93f6e1]" started-at="2020-08-29T00:11:45Z" name="testCurrentUrl" finished-at="2020-08-29T00:11:45Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrentUrl -->
+        <test-method signature="testTitle()[pri:0, instance:com.scratch.HomePage@1c93f6e1]" started-at="2020-08-29T00:11:45Z" name="testTitle" finished-at="2020-08-29T00:11:45Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.scratch.HomePage@1c93f6e1]" started-at="2020-08-29T00:12:07Z" name="afterSuite" finished-at="2020-08-29T00:12:07Z" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.scratch.HomePage -->
+      <class name="com.selenium.basic.SampleSeleniumTest">
+        <test-method signature="verifyHomePage()[pri:0, instance:com.selenium.basic.SampleSeleniumTest@10a9d961]" started-at="2020-08-29T00:12:00Z" name="verifyHomePage" finished-at="2020-08-29T00:12:07Z" duration-ms="6120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+      </class> <!-- com.selenium.basic.SampleSeleniumTest -->
+    </test> <!-- D:/IdeaProjects/TestAutomationProject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

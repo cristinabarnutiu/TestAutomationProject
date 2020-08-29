@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IdeaProjects/TestAutomationProject">
+        <classes>
+            <class name="com.scratch.HomePage">
+                <!--<methods>
+                    <include name="testTitle"/>
+                </methods>-->
+            </class>
+            <class name="com.selenium.basic.InvokeBrowserDynamically">
+                <parameter name="browser" value="chrome"></parameter>
+                <parameter name="browser" value="firefox"></parameter>
+                <parameter name="browser" value="edge"></parameter>
+                <methods>
+                    <include name="verifyHomePage"/>
+                </methods>
+            </class>
+            <class name="com.selenium.basic.InvokeOtherBrowsers">
+            <methods>
+                <include name="verifyHomePage"/>
+            </methods>
+            </class>
+            <class name="com.selenium.basic.SampleSeleniumTest">
+                <methods>
+                    <include name="verifyHomePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
